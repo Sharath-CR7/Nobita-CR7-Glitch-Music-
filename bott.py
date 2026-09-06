@@ -91,12 +91,7 @@ YTDL_OPTS = {
     "extract_flat": False,
     "default_search": "ytsearch",
     "source_address": "0.0.0.0",
-    "extractor_args": {
-        "youtube": {
-            "player_client": ["android_vr"]
-        }
-    }
-}
+   }
 ytdl = yt_dlp.YoutubeDL(YTDL_OPTS)
 
 def ytdl_extract(query: str) -> dict:
