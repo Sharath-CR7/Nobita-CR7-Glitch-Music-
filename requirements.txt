@@ -1,3 +1,4 @@
-discord.py[voice]
-PyNaCl
+discord.py==2.7.1
+davey>=0.1.0
+PyNaCl>=1.6.0
 yt-dlp
